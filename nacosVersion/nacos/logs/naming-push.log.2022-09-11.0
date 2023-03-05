@@ -1,0 +1,98 @@
+2022-09-11 16:23:04,132 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2022-09-11 16:23:04,137 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 169.254.127.199:60412, agent: Nacos-Java-Client:v1.4.2, key: 169.254.127.199,60412,407740012643700
+
+2022-09-11 16:23:04,137 INFO send udp packet: 169.254.127.199,60412,407740012643700
+
+2022-09-11 16:23:04,152 INFO received ack: {"type": "push-ack", "lastRefTime":"407740012643700", "data":""} from: 169.254.127.199:60412, cost: 15 ms, unacked: 0, total push: 1
+
+2022-09-11 16:26:38,898 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2022-09-11 16:26:38,898 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 169.254.127.199:60412, agent: Nacos-Java-Client:v1.4.2, key: 169.254.127.199,60412,407954774486300
+
+2022-09-11 16:26:38,898 INFO send udp packet: 169.254.127.199,60412,407954774486300
+
+2022-09-11 16:26:48,909 INFO retry to push data, key: 169.254.127.199,60412,407954774486300
+
+2022-09-11 16:26:48,909 INFO send udp packet: 169.254.127.199,60412,407954774486300
+
+2022-09-11 16:26:57,824 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2022-09-11 16:26:57,825 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 169.254.127.199:63152, agent: Nacos-Java-Client:v1.4.2, key: 169.254.127.199,63152,407973700498500
+
+2022-09-11 16:26:57,825 INFO send udp packet: 169.254.127.199,63152,407973700498500
+
+2022-09-11 16:26:57,830 INFO received ack: {"type": "push-ack", "lastRefTime":"407973700498500", "data":""} from: 169.254.127.199:63152, cost: 5 ms, unacked: 1, total push: 3
+
+2022-09-11 16:26:58,923 INFO retry to push data, key: 169.254.127.199,60412,407954774486300
+
+2022-09-11 16:26:58,923 WARN max re-push times reached, retry times 2, key: 169.254.127.199,60412,407954774486300
+
+2022-09-11 16:27:20,122 INFO DEFAULT_GROUP@@springcloud-comsumer is changed, add it to push queue.
+
+2022-09-11 16:27:20,122 INFO serviceName: DEFAULT_GROUP@@springcloud-comsumer changed, schedule push for: 169.254.127.199:59029, agent: Nacos-Java-Client:v1.4.2, key: 169.254.127.199,59029,407995998800100
+
+2022-09-11 16:27:20,122 INFO send udp packet: 169.254.127.199,59029,407995998800100
+
+2022-09-11 16:27:20,128 INFO received ack: {"type": "push-ack", "lastRefTime":"407995998800100", "data":""} from: 169.254.127.199:59029, cost: 6 ms, unacked: 0, total push: 4
+
+2022-09-11 16:29:36,873 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2022-09-11 16:29:36,874 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 169.254.127.199:63152, agent: Nacos-Java-Client:v1.4.2, key: 169.254.127.199,63152,408132749423300
+
+2022-09-11 16:29:36,874 INFO send udp packet: 169.254.127.199,63152,408132749423300
+
+2022-09-11 16:29:36,882 INFO received ack: {"type": "push-ack", "lastRefTime":"408132749423300", "data":""} from: 169.254.127.199:63152, cost: 8 ms, unacked: 0, total push: 5
+
+2022-09-11 16:30:04,331 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2022-09-11 16:30:04,331 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 169.254.127.199:63051, agent: Nacos-Java-Client:v1.4.2, key: 169.254.127.199,63051,408160207630500
+
+2022-09-11 16:30:04,331 INFO send udp packet: 169.254.127.199,63051,408160207630500
+
+2022-09-11 16:30:04,335 INFO received ack: {"type": "push-ack", "lastRefTime":"408160207630500", "data":""} from: 169.254.127.199:63051, cost: 4 ms, unacked: 0, total push: 6
+
+2022-09-11 16:30:40,163 INFO DEFAULT_GROUP@@springcloud-comsumer is changed, add it to push queue.
+
+2022-09-11 16:30:40,163 INFO serviceName: DEFAULT_GROUP@@springcloud-comsumer changed, schedule push for: 169.254.127.199:59029, agent: Nacos-Java-Client:v1.4.2, key: 169.254.127.199,59029,408196039357800
+
+2022-09-11 16:30:40,164 INFO send udp packet: 169.254.127.199,59029,408196039357800
+
+2022-09-11 16:30:50,179 INFO retry to push data, key: 169.254.127.199,59029,408196039357800
+
+2022-09-11 16:30:50,179 INFO send udp packet: 169.254.127.199,59029,408196039357800
+
+2022-09-11 16:31:00,187 INFO retry to push data, key: 169.254.127.199,59029,408196039357800
+
+2022-09-11 16:31:00,187 WARN max re-push times reached, retry times 2, key: 169.254.127.199,59029,408196039357800
+
+2022-09-11 16:31:02,646 INFO DEFAULT_GROUP@@springcloud-comsumer is changed, add it to push queue.
+
+2022-09-11 16:31:02,646 INFO serviceName: DEFAULT_GROUP@@springcloud-comsumer changed, schedule push for: 169.254.127.199:53395, agent: Nacos-Java-Client:v1.4.2, key: 169.254.127.199,53395,408218522217900
+
+2022-09-11 16:31:02,646 INFO send udp packet: 169.254.127.199,53395,408218522217900
+
+2022-09-11 16:31:02,650 INFO received ack: {"type": "push-ack", "lastRefTime":"408218522217900", "data":""} from: 169.254.127.199:53395, cost: 4 ms, unacked: 0, total push: 8
+
+2022-09-11 16:40:03,401 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2022-09-11 16:40:03,404 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 169.254.127.199:63051, agent: Nacos-Java-Client:v1.4.2, key: 169.254.127.199,63051,408759279528600
+
+2022-09-11 16:40:03,404 INFO send udp packet: 169.254.127.199,63051,408759279528600
+
+2022-09-11 16:40:03,405 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 169.254.127.199:53395, agent: Nacos-Java-Client:v1.4.2, key: 169.254.127.199,53395,408759279528600
+
+2022-09-11 16:40:03,405 INFO send udp packet: 169.254.127.199,53395,408759279528600
+
+2022-09-11 16:40:03,407 INFO received ack: {"type": "push-ack", "lastRefTime":"408759279528600", "data":""} from: 169.254.127.199:63051, cost: 3 ms, unacked: 1, total push: 10
+
+2022-09-11 16:40:03,408 INFO received ack: {"type": "push-ack", "lastRefTime":"408759279528600", "data":""} from: 169.254.127.199:53395, cost: 3 ms, unacked: 0, total push: 10
+
+2022-09-11 16:40:03,478 INFO DEFAULT_GROUP@@springcloud-comsumer is changed, add it to push queue.
+
+2022-09-11 16:40:03,478 INFO serviceName: DEFAULT_GROUP@@springcloud-comsumer changed, schedule push for: 169.254.127.199:53395, agent: Nacos-Java-Client:v1.4.2, key: 169.254.127.199,53395,408759353753700
+
+2022-09-11 16:40:03,478 INFO send udp packet: 169.254.127.199,53395,408759353753700
+
+2022-09-11 16:40:03,479 INFO received ack: {"type": "push-ack", "lastRefTime":"408759353753700", "data":""} from: 169.254.127.199:53395, cost: 1 ms, unacked: 0, total push: 11
+

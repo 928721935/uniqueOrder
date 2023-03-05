@@ -1,0 +1,40 @@
+2022-09-11 16:23:03,126 INFO DEFAULT_GROUP@@springcloud-provider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.1:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-11 16:23:03,130 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@springcloud-provider, ips: 192.168.1.1:8001_true,
+
+2022-09-11 16:26:37,890 INFO DEFAULT_GROUP@@springcloud-provider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.1:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-11 16:26:37,890 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@springcloud-provider, ips: 
+
+2022-09-11 16:26:56,823 INFO DEFAULT_GROUP@@springcloud-provider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.1:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-11 16:26:56,823 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@springcloud-provider, ips: 192.168.1.1:8001_true,
+
+2022-09-11 16:27:19,113 INFO DEFAULT_GROUP@@springcloud-comsumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.1:8200:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-11 16:27:19,113 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@springcloud-comsumer, ips: 192.168.1.1:8200_true,
+
+2022-09-11 16:29:35,866 INFO DEFAULT_GROUP@@springcloud-provider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.1:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-11 16:29:35,867 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@springcloud-provider, ips: 
+
+2022-09-11 16:30:03,322 INFO DEFAULT_GROUP@@springcloud-provider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.1:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-11 16:30:03,322 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@springcloud-provider, ips: 192.168.1.1:8001_true,
+
+2022-09-11 16:30:39,156 INFO DEFAULT_GROUP@@springcloud-comsumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.1:8200:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-11 16:30:39,156 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@springcloud-comsumer, ips: 
+
+2022-09-11 16:31:01,634 INFO DEFAULT_GROUP@@springcloud-comsumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.1:8200:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-11 16:31:01,634 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@springcloud-comsumer, ips: 192.168.1.1:8200_true,
+
+2022-09-11 16:40:02,395 INFO DEFAULT_GROUP@@springcloud-provider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.1:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-11 16:40:02,395 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@springcloud-provider, ips: 
+
+2022-09-11 16:40:02,466 INFO DEFAULT_GROUP@@springcloud-comsumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.1:8200:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-11 16:40:02,466 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@springcloud-comsumer, ips: 
+

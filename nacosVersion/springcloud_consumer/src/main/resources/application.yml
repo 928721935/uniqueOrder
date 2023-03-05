@@ -1,0 +1,26 @@
+server:
+  port: 8200
+  
+spring:
+  application:
+    name: springcloud-comsumer
+  sleuth:
+    sampler:
+      # 采样率值介于0到1之间，1表示全部采集
+      # 日志数据采样百分比，默认0.1(10%)，这里为了测试设置成了100%，生产环境只需要0.1即可
+      probability: 1
+#    zipkin:
+#      #zipkin server的请求地址
+#      base-url: http://127.0.0.1:9411
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+#eureka:
+#  instance:
+#    prefer-ip-address: true #注册服务的时候使用服务的IP地址
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka/
+      

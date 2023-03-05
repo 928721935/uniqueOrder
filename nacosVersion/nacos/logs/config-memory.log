@@ -1,0 +1,12 @@
+2023-03-06 00:00:03,613 INFO toNotifyTaskSize=0
+
+2023-03-06 00:00:03,613 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2023-03-06 00:00:03,644 INFO [long-pulling] client count 2
+
+2023-03-06 00:00:13,622 INFO toNotifyTaskSize=0
+
+2023-03-06 00:00:13,622 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2023-03-06 00:00:13,654 INFO [long-pulling] client count 2
+

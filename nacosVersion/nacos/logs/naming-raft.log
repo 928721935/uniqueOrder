@@ -1,0 +1,30 @@
+2023-03-05 21:40:43,286 INFO initializing Raft sub-system
+
+2023-03-05 21:40:43,287 INFO finish loading all datums, size: 0 cost 1 ms.
+
+2023-03-05 21:40:43,301 INFO raft notifier started
+
+2023-03-05 21:40:43,310 INFO cache loaded, datum count: 0, current term: 0
+
+2023-03-05 21:40:43,311 INFO finish to load data from disk, cost: 25 ms.
+
+2023-03-05 21:40:43,321 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2023-03-05 21:40:42,982 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.0.102","key":"192.168.0.102:0","lastRefTime":0,"servePort":0,"site":"unknown","weight":1}]
+
+2023-03-05 21:40:43,337 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.0.102","key":"192.168.0.102:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2023-03-05 21:40:45,867 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2023-03-05 21:40:45,899 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2023-03-05 21:40:52,951 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.0.102","key":"192.168.0.102:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2023-03-05 21:40:52,952 INFO server list is updated, dead: 1, servers: [{"adWeight":0,"alive":false,"ip":"192.168.0.102","key":"192.168.0.102:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2023-03-05 21:40:52,952 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.0.102","key":"192.168.0.102:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2023-03-05 21:40:55,021 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.0.102","key":"192.168.0.102:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2023-03-05 21:41:50,519 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@springcloud-provider
+

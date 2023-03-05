@@ -1,0 +1,518 @@
+2023-03-05 21:41:51,617 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 21:41:51,633 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:57137, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,57137,3669820051458700
+
+2023-03-05 21:41:51,633 INFO send udp packet: 192.168.0.102,57137,3669820051458700
+
+2023-03-05 21:41:51,650 INFO received ack: {"type": "push-ack", "lastRefTime":"3669820051458700", "data":""} from: 192.168.0.102:57137, cost: 17 ms, unacked: 0, total push: 1
+
+2023-03-05 21:44:36,857 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 21:44:52,102 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 21:47:24,764 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 21:47:24,765 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:50736, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,50736,3670153183759400
+
+2023-03-05 21:47:24,765 INFO send udp packet: 192.168.0.102,50736,3670153183759400
+
+2023-03-05 21:47:24,770 INFO received ack: {"type": "push-ack", "lastRefTime":"3670153183759400", "data":""} from: 192.168.0.102:50736, cost: 5 ms, unacked: 0, total push: 2
+
+2023-03-05 21:48:17,369 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 21:48:30,402 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 21:48:30,402 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:57969, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,57969,3670218821899200
+
+2023-03-05 21:48:30,402 INFO send udp packet: 192.168.0.102,57969,3670218821899200
+
+2023-03-05 21:48:30,408 INFO received ack: {"type": "push-ack", "lastRefTime":"3670218821899200", "data":""} from: 192.168.0.102:57969, cost: 6 ms, unacked: 0, total push: 3
+
+2023-03-05 21:48:35,401 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 21:48:35,419 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:57969, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,57969,3670223827713500
+
+2023-03-05 21:48:35,419 INFO send udp packet: 192.168.0.102,57969,3670223827713500
+
+2023-03-05 21:48:35,421 INFO received ack: {"type": "push-ack", "lastRefTime":"3670223827713500", "data":""} from: 192.168.0.102:57969, cost: 2 ms, unacked: 0, total push: 4
+
+2023-03-05 21:49:51,109 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 21:49:51,110 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:57969, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,57969,3670299528144300
+
+2023-03-05 21:49:51,110 INFO send udp packet: 192.168.0.102,57969,3670299528144300
+
+2023-03-05 21:49:51,113 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:62692, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,62692,3670299528144300
+
+2023-03-05 21:49:51,113 INFO send udp packet: 192.168.0.102,62692,3670299528144300
+
+2023-03-05 21:49:51,114 INFO received ack: {"type": "push-ack", "lastRefTime":"3670299528144300", "data":""} from: 192.168.0.102:57969, cost: 4 ms, unacked: 1, total push: 6
+
+2023-03-05 21:49:51,121 INFO received ack: {"type": "push-ack", "lastRefTime":"3670299528144300", "data":""} from: 192.168.0.102:62692, cost: 8 ms, unacked: 0, total push: 6
+
+2023-03-05 21:50:29,957 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 21:50:29,957 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:57969, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,57969,3670338376149000
+
+2023-03-05 21:50:29,957 INFO send udp packet: 192.168.0.102,57969,3670338376149000
+
+2023-03-05 21:50:29,957 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:62692, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,62692,3670338376149000
+
+2023-03-05 21:50:29,957 INFO send udp packet: 192.168.0.102,62692,3670338376149000
+
+2023-03-05 21:50:29,961 INFO received ack: {"type": "push-ack", "lastRefTime":"3670338376149000", "data":""} from: 192.168.0.102:57969, cost: 4 ms, unacked: 1, total push: 8
+
+2023-03-05 21:50:29,961 INFO received ack: {"type": "push-ack", "lastRefTime":"3670338376149000", "data":""} from: 192.168.0.102:62692, cost: 4 ms, unacked: 0, total push: 8
+
+2023-03-05 21:52:57,802 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 21:53:12,838 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 21:53:24,201 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 21:53:24,202 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:50938, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,50938,3670512621315000
+
+2023-03-05 21:53:24,202 INFO send udp packet: 192.168.0.102,50938,3670512621315000
+
+2023-03-05 21:53:24,208 INFO received ack: {"type": "push-ack", "lastRefTime":"3670512621315000", "data":""} from: 192.168.0.102:50938, cost: 6 ms, unacked: 0, total push: 9
+
+2023-03-05 21:53:52,162 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 21:53:52,162 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:50938, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,50938,3670540581911300
+
+2023-03-05 21:53:52,162 INFO send udp packet: 192.168.0.102,50938,3670540581911300
+
+2023-03-05 21:53:52,167 INFO received ack: {"type": "push-ack", "lastRefTime":"3670540581911300", "data":""} from: 192.168.0.102:50938, cost: 5 ms, unacked: 0, total push: 10
+
+2023-03-05 21:54:48,174 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 21:54:48,175 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:60062, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,60062,3670596594078500
+
+2023-03-05 21:54:48,175 INFO send udp packet: 192.168.0.102,60062,3670596594078500
+
+2023-03-05 21:54:48,180 INFO received ack: {"type": "push-ack", "lastRefTime":"3670596594078500", "data":""} from: 192.168.0.102:60062, cost: 5 ms, unacked: 0, total push: 11
+
+2023-03-05 21:54:52,797 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 21:54:52,797 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:60062, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,60062,3670601216066200
+
+2023-03-05 21:54:52,797 INFO send udp packet: 192.168.0.102,60062,3670601216066200
+
+2023-03-05 21:54:52,801 INFO received ack: {"type": "push-ack", "lastRefTime":"3670601216066200", "data":""} from: 192.168.0.102:60062, cost: 4 ms, unacked: 0, total push: 12
+
+2023-03-05 22:20:14,762 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 22:20:14,762 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:57608, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,57608,3672123181684000
+
+2023-03-05 22:20:14,762 INFO send udp packet: 192.168.0.102,57608,3672123181684000
+
+2023-03-05 22:20:14,780 INFO received ack: {"type": "push-ack", "lastRefTime":"3672123181684000", "data":""} from: 192.168.0.102:57608, cost: 18 ms, unacked: 0, total push: 13
+
+2023-03-05 22:20:15,899 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 22:20:15,899 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:57608, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,57608,3672124318157200
+
+2023-03-05 22:20:15,899 INFO send udp packet: 192.168.0.102,57608,3672124318157200
+
+2023-03-05 22:20:25,905 INFO retry to push data, key: 192.168.0.102,57608,3672124318157200
+
+2023-03-05 22:20:25,906 INFO send udp packet: 192.168.0.102,57608,3672124318157200
+
+2023-03-05 22:20:32,672 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 22:20:32,672 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:50991, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,50991,3672141091180300
+
+2023-03-05 22:20:32,672 INFO send udp packet: 192.168.0.102,50991,3672141091180300
+
+2023-03-05 22:20:32,691 INFO received ack: {"type": "push-ack", "lastRefTime":"3672141091180300", "data":""} from: 192.168.0.102:50991, cost: 19 ms, unacked: 1, total push: 15
+
+2023-03-05 22:20:35,908 INFO retry to push data, key: 192.168.0.102,57608,3672124318157200
+
+2023-03-05 22:20:35,908 WARN max re-push times reached, retry times 2, key: 192.168.0.102,57608,3672124318157200
+
+2023-03-05 22:21:56,894 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 22:21:56,894 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:50991, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,50991,3672225313763300
+
+2023-03-05 22:21:56,894 INFO send udp packet: 192.168.0.102,50991,3672225313763300
+
+2023-03-05 22:22:06,506 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 22:22:06,506 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:51227, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,51227,3672234925676500
+
+2023-03-05 22:22:06,506 INFO send udp packet: 192.168.0.102,51227,3672234925676500
+
+2023-03-05 22:22:06,524 INFO received ack: {"type": "push-ack", "lastRefTime":"3672234925676500", "data":""} from: 192.168.0.102:51227, cost: 18 ms, unacked: 1, total push: 17
+
+2023-03-05 22:22:06,908 INFO retry to push data, key: 192.168.0.102,50991,3672225313763300
+
+2023-03-05 22:22:06,908 INFO send udp packet: 192.168.0.102,50991,3672225313763300
+
+2023-03-05 22:22:16,910 INFO retry to push data, key: 192.168.0.102,50991,3672225313763300
+
+2023-03-05 22:22:16,910 WARN max re-push times reached, retry times 2, key: 192.168.0.102,50991,3672225313763300
+
+2023-03-05 22:23:21,473 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 22:23:21,473 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:51227, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,51227,3672309892492600
+
+2023-03-05 22:23:21,473 INFO send udp packet: 192.168.0.102,51227,3672309892492600
+
+2023-03-05 22:23:31,483 INFO retry to push data, key: 192.168.0.102,51227,3672309892492600
+
+2023-03-05 22:23:31,483 INFO send udp packet: 192.168.0.102,51227,3672309892492600
+
+2023-03-05 22:23:36,088 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 22:23:36,088 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:58526, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,58526,3672324507676700
+
+2023-03-05 22:23:36,088 INFO send udp packet: 192.168.0.102,58526,3672324507676700
+
+2023-03-05 22:23:36,106 INFO received ack: {"type": "push-ack", "lastRefTime":"3672324507676700", "data":""} from: 192.168.0.102:58526, cost: 18 ms, unacked: 1, total push: 19
+
+2023-03-05 22:23:41,488 INFO retry to push data, key: 192.168.0.102,51227,3672309892492600
+
+2023-03-05 22:23:41,488 WARN max re-push times reached, retry times 2, key: 192.168.0.102,51227,3672309892492600
+
+2023-03-05 22:25:08,444 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 22:25:08,444 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:58526, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,58526,3672416863963500
+
+2023-03-05 22:25:08,444 INFO send udp packet: 192.168.0.102,58526,3672416863963500
+
+2023-03-05 22:25:18,457 INFO retry to push data, key: 192.168.0.102,58526,3672416863963500
+
+2023-03-05 22:25:18,457 INFO send udp packet: 192.168.0.102,58526,3672416863963500
+
+2023-03-05 22:25:20,548 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 22:25:20,548 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:62270, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,62270,3672428967304200
+
+2023-03-05 22:25:20,548 INFO send udp packet: 192.168.0.102,62270,3672428967304200
+
+2023-03-05 22:25:20,567 INFO received ack: {"type": "push-ack", "lastRefTime":"3672428967304200", "data":""} from: 192.168.0.102:62270, cost: 19 ms, unacked: 1, total push: 21
+
+2023-03-05 22:25:28,458 INFO retry to push data, key: 192.168.0.102,58526,3672416863963500
+
+2023-03-05 22:25:28,458 WARN max re-push times reached, retry times 2, key: 192.168.0.102,58526,3672416863963500
+
+2023-03-05 22:25:45,594 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 22:25:45,594 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:62270, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,62270,3672454013712800
+
+2023-03-05 22:25:45,595 INFO send udp packet: 192.168.0.102,62270,3672454013712800
+
+2023-03-05 22:25:55,608 INFO retry to push data, key: 192.168.0.102,62270,3672454013712800
+
+2023-03-05 22:25:55,609 INFO send udp packet: 192.168.0.102,62270,3672454013712800
+
+2023-03-05 22:25:59,671 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 22:25:59,672 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:52244, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,52244,3672468090709300
+
+2023-03-05 22:25:59,672 INFO send udp packet: 192.168.0.102,52244,3672468090709300
+
+2023-03-05 22:25:59,691 INFO received ack: {"type": "push-ack", "lastRefTime":"3672468090709300", "data":""} from: 192.168.0.102:52244, cost: 19 ms, unacked: 1, total push: 23
+
+2023-03-05 22:26:05,609 INFO retry to push data, key: 192.168.0.102,62270,3672454013712800
+
+2023-03-05 22:26:05,609 WARN max re-push times reached, retry times 2, key: 192.168.0.102,62270,3672454013712800
+
+2023-03-05 22:34:53,759 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 22:34:53,759 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:52244, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,52244,3673002178535700
+
+2023-03-05 22:34:53,759 INFO send udp packet: 192.168.0.102,52244,3673002178535700
+
+2023-03-05 22:35:03,763 INFO retry to push data, key: 192.168.0.102,52244,3673002178535700
+
+2023-03-05 22:35:03,763 INFO send udp packet: 192.168.0.102,52244,3673002178535700
+
+2023-03-05 22:35:12,499 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 22:35:12,499 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:59126, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,59126,3673020918682800
+
+2023-03-05 22:35:12,499 INFO send udp packet: 192.168.0.102,59126,3673020918682800
+
+2023-03-05 22:35:12,519 INFO received ack: {"type": "push-ack", "lastRefTime":"3673020918682800", "data":""} from: 192.168.0.102:59126, cost: 20 ms, unacked: 1, total push: 25
+
+2023-03-05 22:35:13,774 INFO retry to push data, key: 192.168.0.102,52244,3673002178535700
+
+2023-03-05 22:35:13,775 WARN max re-push times reached, retry times 2, key: 192.168.0.102,52244,3673002178535700
+
+2023-03-05 22:35:14,565 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 22:35:14,565 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:59126, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,59126,3673022984923000
+
+2023-03-05 22:35:14,565 INFO send udp packet: 192.168.0.102,59126,3673022984923000
+
+2023-03-05 22:35:14,565 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:59127, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,59127,3673022984923000
+
+2023-03-05 22:35:14,565 INFO send udp packet: 192.168.0.102,59127,3673022984923000
+
+2023-03-05 22:35:14,569 INFO received ack: {"type": "push-ack", "lastRefTime":"3673022984923000", "data":""} from: 192.168.0.102:59126, cost: 4 ms, unacked: 1, total push: 27
+
+2023-03-05 22:35:14,585 INFO received ack: {"type": "push-ack", "lastRefTime":"3673022984923000", "data":""} from: 192.168.0.102:59127, cost: 20 ms, unacked: 0, total push: 27
+
+2023-03-05 22:41:00,818 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 22:41:00,818 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:59126, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,59126,3673369237748100
+
+2023-03-05 22:41:00,818 INFO send udp packet: 192.168.0.102,59126,3673369237748100
+
+2023-03-05 22:41:00,818 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:59127, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,59127,3673369237748100
+
+2023-03-05 22:41:00,818 INFO send udp packet: 192.168.0.102,59127,3673369237748100
+
+2023-03-05 22:41:00,837 INFO received ack: {"type": "push-ack", "lastRefTime":"3673369237748100", "data":""} from: 192.168.0.102:59126, cost: 19 ms, unacked: 1, total push: 29
+
+2023-03-05 22:41:00,837 INFO received ack: {"type": "push-ack", "lastRefTime":"3673369237748100", "data":""} from: 192.168.0.102:59127, cost: 19 ms, unacked: 0, total push: 29
+
+2023-03-05 22:41:20,693 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 22:41:20,693 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:63557, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,63557,3673389112617600
+
+2023-03-05 22:41:20,693 INFO send udp packet: 192.168.0.102,63557,3673389112617600
+
+2023-03-05 22:41:20,712 INFO received ack: {"type": "push-ack", "lastRefTime":"3673389112617600", "data":""} from: 192.168.0.102:63557, cost: 19 ms, unacked: 0, total push: 30
+
+2023-03-05 22:41:24,935 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 22:41:24,935 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:63557, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,63557,3673393354488600
+
+2023-03-05 22:41:24,935 INFO send udp packet: 192.168.0.102,63557,3673393354488600
+
+2023-03-05 22:41:24,935 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:63558, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,63558,3673393354488600
+
+2023-03-05 22:41:24,936 INFO send udp packet: 192.168.0.102,63558,3673393354488600
+
+2023-03-05 22:41:24,940 INFO received ack: {"type": "push-ack", "lastRefTime":"3673393354488600", "data":""} from: 192.168.0.102:63557, cost: 5 ms, unacked: 1, total push: 32
+
+2023-03-05 22:41:24,958 INFO received ack: {"type": "push-ack", "lastRefTime":"3673393354488600", "data":""} from: 192.168.0.102:63558, cost: 23 ms, unacked: 0, total push: 32
+
+2023-03-05 22:45:09,628 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 22:45:09,628 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:63557, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,63557,3673618047263000
+
+2023-03-05 22:45:09,628 INFO send udp packet: 192.168.0.102,63557,3673618047263000
+
+2023-03-05 22:45:09,629 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:63558, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,63558,3673618047263000
+
+2023-03-05 22:45:09,629 INFO send udp packet: 192.168.0.102,63558,3673618047263000
+
+2023-03-05 22:45:09,647 INFO received ack: {"type": "push-ack", "lastRefTime":"3673618047263000", "data":""} from: 192.168.0.102:63557, cost: 19 ms, unacked: 1, total push: 34
+
+2023-03-05 22:45:09,647 INFO received ack: {"type": "push-ack", "lastRefTime":"3673618047263000", "data":""} from: 192.168.0.102:63558, cost: 18 ms, unacked: 0, total push: 34
+
+2023-03-05 22:45:27,173 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 22:45:27,173 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:56426, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,56426,3673635592217700
+
+2023-03-05 22:45:27,173 INFO send udp packet: 192.168.0.102,56426,3673635592217700
+
+2023-03-05 22:45:27,192 INFO received ack: {"type": "push-ack", "lastRefTime":"3673635592217700", "data":""} from: 192.168.0.102:56426, cost: 19 ms, unacked: 0, total push: 35
+
+2023-03-05 22:45:29,268 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 22:45:29,268 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:56427, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,56427,3673637687989600
+
+2023-03-05 22:45:29,268 INFO send udp packet: 192.168.0.102,56427,3673637687989600
+
+2023-03-05 22:45:29,268 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:56426, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,56426,3673637687989600
+
+2023-03-05 22:45:29,268 INFO send udp packet: 192.168.0.102,56426,3673637687989600
+
+2023-03-05 22:45:29,272 INFO received ack: {"type": "push-ack", "lastRefTime":"3673637687989600", "data":""} from: 192.168.0.102:56426, cost: 4 ms, unacked: 1, total push: 37
+
+2023-03-05 22:45:29,288 INFO received ack: {"type": "push-ack", "lastRefTime":"3673637687989600", "data":""} from: 192.168.0.102:56427, cost: 20 ms, unacked: 0, total push: 37
+
+2023-03-05 23:24:30,825 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 23:24:30,825 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:56427, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,56427,3675979170789200
+
+2023-03-05 23:24:30,825 INFO send udp packet: 192.168.0.102,56427,3675979170789200
+
+2023-03-05 23:24:30,826 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:56426, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,56426,3675979170789200
+
+2023-03-05 23:24:30,826 INFO send udp packet: 192.168.0.102,56426,3675979170789200
+
+2023-03-05 23:24:30,842 INFO received ack: {"type": "push-ack", "lastRefTime":"3675979170789200", "data":""} from: 192.168.0.102:56426, cost: 16 ms, unacked: 1, total push: 39
+
+2023-03-05 23:24:30,844 INFO received ack: {"type": "push-ack", "lastRefTime":"3675979170789200", "data":""} from: 192.168.0.102:56427, cost: 19 ms, unacked: 0, total push: 39
+
+2023-03-05 23:26:39,596 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 23:26:39,597 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:61806, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,61806,3676107921354700
+
+2023-03-05 23:26:39,597 INFO send udp packet: 192.168.0.102,61806,3676107921354700
+
+2023-03-05 23:26:39,616 INFO received ack: {"type": "push-ack", "lastRefTime":"3676107921354700", "data":""} from: 192.168.0.102:61806, cost: 19 ms, unacked: 0, total push: 40
+
+2023-03-05 23:26:46,370 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 23:26:46,370 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:61806, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,61806,3676114693961800
+
+2023-03-05 23:26:46,370 INFO send udp packet: 192.168.0.102,61806,3676114693961800
+
+2023-03-05 23:26:46,370 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:61807, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,61807,3676114693961800
+
+2023-03-05 23:26:46,370 INFO send udp packet: 192.168.0.102,61807,3676114693961800
+
+2023-03-05 23:26:46,374 INFO received ack: {"type": "push-ack", "lastRefTime":"3676114693961800", "data":""} from: 192.168.0.102:61806, cost: 4 ms, unacked: 1, total push: 42
+
+2023-03-05 23:26:46,390 INFO received ack: {"type": "push-ack", "lastRefTime":"3676114693961800", "data":""} from: 192.168.0.102:61807, cost: 20 ms, unacked: 0, total push: 42
+
+2023-03-05 23:28:47,165 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 23:28:47,165 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:61806, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,61806,3676235469369900
+
+2023-03-05 23:28:47,165 INFO send udp packet: 192.168.0.102,61806,3676235469369900
+
+2023-03-05 23:28:47,165 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:61807, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,61807,3676235469369900
+
+2023-03-05 23:28:47,165 INFO send udp packet: 192.168.0.102,61807,3676235469369900
+
+2023-03-05 23:28:47,183 INFO received ack: {"type": "push-ack", "lastRefTime":"3676235469369900", "data":""} from: 192.168.0.102:61807, cost: 18 ms, unacked: 1, total push: 44
+
+2023-03-05 23:28:47,187 INFO received ack: {"type": "push-ack", "lastRefTime":"3676235469369900", "data":""} from: 192.168.0.102:61806, cost: 22 ms, unacked: 0, total push: 44
+
+2023-03-05 23:29:04,982 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 23:29:04,982 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:54949, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,54949,3676253283625400
+
+2023-03-05 23:29:04,982 INFO send udp packet: 192.168.0.102,54949,3676253283625400
+
+2023-03-05 23:29:05,000 INFO received ack: {"type": "push-ack", "lastRefTime":"3676253283625400", "data":""} from: 192.168.0.102:54949, cost: 18 ms, unacked: 0, total push: 45
+
+2023-03-05 23:29:37,405 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 23:29:37,405 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:54949, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,54949,3676285701611500
+
+2023-03-05 23:29:37,405 INFO send udp packet: 192.168.0.102,54949,3676285701611500
+
+2023-03-05 23:29:47,410 INFO retry to push data, key: 192.168.0.102,54949,3676285701611500
+
+2023-03-05 23:29:47,410 INFO send udp packet: 192.168.0.102,54949,3676285701611500
+
+2023-03-05 23:29:47,781 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 23:29:47,781 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:62679, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,62679,3676296075806300
+
+2023-03-05 23:29:47,781 INFO send udp packet: 192.168.0.102,62679,3676296075806300
+
+2023-03-05 23:29:47,800 INFO received ack: {"type": "push-ack", "lastRefTime":"3676296075806300", "data":""} from: 192.168.0.102:62679, cost: 19 ms, unacked: 1, total push: 47
+
+2023-03-05 23:29:57,427 INFO retry to push data, key: 192.168.0.102,54949,3676285701611500
+
+2023-03-05 23:29:57,427 WARN max re-push times reached, retry times 2, key: 192.168.0.102,54949,3676285701611500
+
+2023-03-05 23:31:01,521 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 23:31:01,521 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:62679, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,62679,3676369804285000
+
+2023-03-05 23:31:01,521 INFO send udp packet: 192.168.0.102,62679,3676369804285000
+
+2023-03-05 23:31:11,538 INFO retry to push data, key: 192.168.0.102,62679,3676369804285000
+
+2023-03-05 23:31:11,538 INFO send udp packet: 192.168.0.102,62679,3676369804285000
+
+2023-03-05 23:31:16,030 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 23:31:16,030 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:65078, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,65078,3676384310657000
+
+2023-03-05 23:31:16,030 INFO send udp packet: 192.168.0.102,65078,3676384310657000
+
+2023-03-05 23:31:16,050 INFO received ack: {"type": "push-ack", "lastRefTime":"3676384310657000", "data":""} from: 192.168.0.102:65078, cost: 20 ms, unacked: 1, total push: 49
+
+2023-03-05 23:31:21,547 INFO retry to push data, key: 192.168.0.102,62679,3676369804285000
+
+2023-03-05 23:31:21,547 WARN max re-push times reached, retry times 2, key: 192.168.0.102,62679,3676369804285000
+
+2023-03-05 23:34:01,189 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 23:34:01,189 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:65078, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,65078,3676549443346600
+
+2023-03-05 23:34:01,189 INFO send udp packet: 192.168.0.102,65078,3676549443346600
+
+2023-03-05 23:34:11,191 INFO retry to push data, key: 192.168.0.102,65078,3676549443346600
+
+2023-03-05 23:34:11,191 INFO send udp packet: 192.168.0.102,65078,3676549443346600
+
+2023-03-05 23:34:17,766 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 23:34:17,767 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:50481, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,50481,3676566019149100
+
+2023-03-05 23:34:17,767 INFO send udp packet: 192.168.0.102,50481,3676566019149100
+
+2023-03-05 23:34:17,787 INFO received ack: {"type": "push-ack", "lastRefTime":"3676566019149100", "data":""} from: 192.168.0.102:50481, cost: 20 ms, unacked: 1, total push: 51
+
+2023-03-05 23:34:21,206 INFO retry to push data, key: 192.168.0.102,65078,3676549443346600
+
+2023-03-05 23:34:21,206 WARN max re-push times reached, retry times 2, key: 192.168.0.102,65078,3676549443346600
+
+2023-03-05 23:34:26,133 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 23:34:26,133 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:50481, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,50481,3676574385174400
+
+2023-03-05 23:34:26,133 INFO send udp packet: 192.168.0.102,50481,3676574385174400
+
+2023-03-05 23:34:26,133 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:50483, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,50483,3676574385174400
+
+2023-03-05 23:34:26,133 INFO send udp packet: 192.168.0.102,50483,3676574385174400
+
+2023-03-05 23:34:26,137 INFO received ack: {"type": "push-ack", "lastRefTime":"3676574385174400", "data":""} from: 192.168.0.102:50481, cost: 4 ms, unacked: 1, total push: 53
+
+2023-03-05 23:34:26,152 INFO received ack: {"type": "push-ack", "lastRefTime":"3676574385174400", "data":""} from: 192.168.0.102:50483, cost: 19 ms, unacked: 0, total push: 53
+
+2023-03-05 23:40:28,600 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 23:40:28,600 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:50483, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,50483,3676936810604800
+
+2023-03-05 23:40:28,600 INFO send udp packet: 192.168.0.102,50483,3676936810604800
+
+2023-03-05 23:40:28,620 INFO received ack: {"type": "push-ack", "lastRefTime":"3676936810604800", "data":""} from: 192.168.0.102:50483, cost: 20 ms, unacked: 0, total push: 54
+
+2023-03-05 23:40:43,627 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 23:40:43,627 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:50483, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,50483,3676951835609500
+
+2023-03-05 23:40:43,627 INFO send udp packet: 192.168.0.102,50483,3676951835609500
+
+2023-03-05 23:40:43,630 INFO received ack: {"type": "push-ack", "lastRefTime":"3676951835609500", "data":""} from: 192.168.0.102:50483, cost: 3 ms, unacked: 0, total push: 55
+
+2023-03-05 23:42:10,590 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 23:42:10,591 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:50481, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,50481,3677038789428600
+
+2023-03-05 23:42:10,591 INFO send udp packet: 192.168.0.102,50481,3677038789428600
+
+2023-03-05 23:42:10,592 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:50483, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,50483,3677038789428600
+
+2023-03-05 23:42:10,592 INFO send udp packet: 192.168.0.102,50483,3677038789428600
+
+2023-03-05 23:42:10,609 INFO received ack: {"type": "push-ack", "lastRefTime":"3677038789428600", "data":""} from: 192.168.0.102:50481, cost: 18 ms, unacked: 1, total push: 57
+
+2023-03-05 23:42:10,609 INFO received ack: {"type": "push-ack", "lastRefTime":"3677038789428600", "data":""} from: 192.168.0.102:50483, cost: 17 ms, unacked: 0, total push: 57
+
+2023-03-05 23:42:25,883 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 23:42:25,883 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:53041, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,53041,3677054080276500
+
+2023-03-05 23:42:25,883 INFO send udp packet: 192.168.0.102,53041,3677054080276500
+
+2023-03-05 23:42:25,890 INFO received ack: {"type": "push-ack", "lastRefTime":"3677054080276500", "data":""} from: 192.168.0.102:53041, cost: 7 ms, unacked: 0, total push: 58
+
+2023-03-05 23:42:28,153 INFO DEFAULT_GROUP@@springcloud-provider is changed, add it to push queue.
+
+2023-03-05 23:42:28,153 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:53042, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,53042,3677056349927500
+
+2023-03-05 23:42:28,153 INFO send udp packet: 192.168.0.102,53042,3677056349927500
+
+2023-03-05 23:42:28,153 INFO serviceName: DEFAULT_GROUP@@springcloud-provider changed, schedule push for: 192.168.0.102:53041, agent: Nacos-Java-Client:v1.4.2, key: 192.168.0.102,53041,3677056349927500
+
+2023-03-05 23:42:28,153 INFO send udp packet: 192.168.0.102,53041,3677056349927500
+
+2023-03-05 23:42:28,157 INFO received ack: {"type": "push-ack", "lastRefTime":"3677056349927500", "data":""} from: 192.168.0.102:53041, cost: 4 ms, unacked: 1, total push: 60
+
+2023-03-05 23:42:28,173 INFO received ack: {"type": "push-ack", "lastRefTime":"3677056349927500", "data":""} from: 192.168.0.102:53042, cost: 20 ms, unacked: 0, total push: 60
+
