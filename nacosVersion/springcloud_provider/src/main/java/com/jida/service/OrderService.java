@@ -2,6 +2,7 @@ package com.jida.service;
 
 import com.jida.common.SnowflakeIdWorkerUtil;
 import com.jida.entity.MyOrderVO;
+import com.jida.mapper.LoginUserVOMapper;
 import com.jida.mapper.MyOrderVOMapper;
 import org.apache.commons.io.FileUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +20,9 @@ import java.util.List;
 public class OrderService {
 	@Autowired
 	MyOrderVOMapper myOrderVOMapper;
+
+	@Autowired
+	LoginUserVOMapper loginUserVOMapper;
 
 	public String newOrder() {
 		MyOrderVO myOrderVO = new MyOrderVO();
@@ -87,5 +91,35 @@ public class OrderService {
 		}
 		System.out.println("+++++++++");
 		return "success";
+	}
+
+	public String newOrderNoNewMysql() {
+		// 数据库方案，并发太差了
+		String type = "order";
+		Long nextSerialNo = loginUserVOMapper.getNextSerialNo(type);
+		Long newVal = nextSerialNo + 5;
+		getNextSerial(type, nextSerialNo, newVal);
+		Long maxOrderNo = newVal;
+		maxOrderNo-=5;
+		SnowflakeIdWorkerUtil instance = SnowflakeIdWorkerUtil.getInstance();
+		for (int i = 0; i < 5; i++) {
+			MyOrderVO myOrderVO = new MyOrderVO();
+			myOrderVO.setOrderId(instance.nextId());
+			myOrderVO.setOrderNo(++maxOrderNo +"");
+			myOrderVOMapper.insert(myOrderVO);
+		}
+		System.out.println("+++++++++");
+		return "success";
+	}
+
+	private synchronized void getNextSerial(String type, Long nextSerialNo, Long newVal) {
+		int cnt = 0;
+		int retryTime = 30;
+		while (cnt == 0) {
+			cnt = loginUserVOMapper.updateSerial(type, nextSerialNo, newVal);
+			if (--retryTime < 0) {
+				throw new RuntimeException("重试30次都失败");
+			}
+		}
 	}
 }

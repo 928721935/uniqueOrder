@@ -26,4 +26,9 @@ public class OrderController {
 	public String newOrderNoNew(){
 		return orderService.newOrderNoNew();
 	}
+
+	@GetMapping("/newOrderNoNewMysql")
+	public String newOrderNoNewMysql(){
+		return orderService.newOrderNoNewMysql();
+	}
 }
