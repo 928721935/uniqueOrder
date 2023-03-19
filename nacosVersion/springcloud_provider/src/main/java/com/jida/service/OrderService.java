@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.core.script.DefaultRedisScript;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.io.File;
 import java.io.IOException;
@@ -94,7 +95,7 @@ public class OrderService {
 	}
 
 	public String newOrderNoNewMysql() {
-		// 数据库方案，并发太差了
+		// 数据库乐观锁方案，并发太差了，并且会超过30次直接失败
 		String type = "order";
 		Long nextSerialNo = loginUserVOMapper.getNextSerialNo(type);
 		Long newVal = nextSerialNo + 5;
@@ -112,6 +113,17 @@ public class OrderService {
 		return "success";
 	}
 
+	private void getNextSerialNoSync(String type, Long nextSerialNo, Long newVal) {
+		int cnt = 0;
+		int retryTime = 30;
+		while (cnt == 0) {
+			cnt = loginUserVOMapper.updateSerial(type, nextSerialNo, newVal);
+			if (--retryTime < 0) {
+				throw new RuntimeException("重试30次都失败");
+			}
+		}
+	}
+
 	private synchronized void getNextSerial(String type, Long nextSerialNo, Long newVal) {
 		int cnt = 0;
 		int retryTime = 30;
@@ -121,5 +133,25 @@ public class OrderService {
 				throw new RuntimeException("重试30次都失败");
 			}
 		}
+	}
+
+	@Transactional
+	public String newOrderNoNewMysql2() {
+		// 悲观锁
+		String type = "order";
+		Long nextSerialNo = loginUserVOMapper.getNextSerialNoForUpdate(type);
+		Long newVal = nextSerialNo + 5;
+		getNextSerialNoSync(type, nextSerialNo, newVal);
+		Long maxOrderNo = newVal;
+		maxOrderNo-=5;
+		SnowflakeIdWorkerUtil instance = SnowflakeIdWorkerUtil.getInstance();
+		for (int i = 0; i < 5; i++) {
+			MyOrderVO myOrderVO = new MyOrderVO();
+			myOrderVO.setOrderId(instance.nextId());
+			myOrderVO.setOrderNo(++maxOrderNo +"");
+			myOrderVOMapper.insert(myOrderVO);
+		}
+		System.out.println("+++++++++");
+		return "success";
 	}
 }

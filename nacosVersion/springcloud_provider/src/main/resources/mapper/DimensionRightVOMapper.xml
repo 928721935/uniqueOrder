@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jida.mapper.DimensionRightVOMapper">
+  <resultMap id="BaseResultMap" type="com.jida.entity.DimensionRightVO">
+    <id column="dimension_right_id" jdbcType="BIGINT" property="dimensionRightId" />
+    <result column="role_code" jdbcType="VARCHAR" property="roleCode" />
+    <result column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="group_code_list" jdbcType="VARCHAR" property="groupCodeList" />
+    <result column="calc_scene_list" jdbcType="VARCHAR" property="calcSceneList" />
+    <result column="buss_snene_list" jdbcType="VARCHAR" property="bussSneneList" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    di.dimension_right_id, di.role_code, di.user_id, di.group_code_list, di.calc_scene_list, di.buss_snene_list
+  </sql>
+  <select id="getDiByDiCode" resultType="com.jida.entity.DimensionRightVO">
+    select * from dimension_right di where
+    role_code = #{roleCode} and
+   <if test="type=='group'">
+     FIND_IN_SET(#{code},di.group_code_list)
+   </if>
+    <if test="type=='calcScene'">
+      FIND_IN_SET(#{code},di.calc_scene_list)
+    </if>
+    <if test="type=='bussScene'">
+      FIND_IN_SET(#{code},di.buss_snene_list)
+    </if>
+  </select>
+
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from dimension_right
+    where dimension_right_id = #{dimensionRightId,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from dimension_right
+    where dimension_right_id = #{dimensionRightId,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.jida.entity.DimensionRightVO">
+    insert into dimension_right (dimension_right_id, role_code, user_id, 
+      group_code_list, calc_scene_list, buss_snene_list
+      )
+    values (#{dimensionRightId,jdbcType=BIGINT}, #{roleCode,jdbcType=VARCHAR}, #{userId,jdbcType=BIGINT}, 
+      #{groupCodeList,jdbcType=VARCHAR}, #{calcSceneList,jdbcType=VARCHAR}, #{bussSneneList,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.jida.entity.DimensionRightVO">
+    insert into dimension_right
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="dimensionRightId != null">
+        dimension_right_id,
+      </if>
+      <if test="roleCode != null">
+        role_code,
+      </if>
+      <if test="userId != null">
+        user_id,
+      </if>
+      <if test="groupCodeList != null">
+        group_code_list,
+      </if>
+      <if test="calcSceneList != null">
+        calc_scene_list,
+      </if>
+      <if test="bussSneneList != null">
+        buss_snene_list,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="dimensionRightId != null">
+        #{dimensionRightId,jdbcType=BIGINT},
+      </if>
+      <if test="roleCode != null">
+        #{roleCode,jdbcType=VARCHAR},
+      </if>
+      <if test="userId != null">
+        #{userId,jdbcType=BIGINT},
+      </if>
+      <if test="groupCodeList != null">
+        #{groupCodeList,jdbcType=VARCHAR},
+      </if>
+      <if test="calcSceneList != null">
+        #{calcSceneList,jdbcType=VARCHAR},
+      </if>
+      <if test="bussSneneList != null">
+        #{bussSneneList,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.jida.entity.DimensionRightVO">
+    update dimension_right
+    <set>
+      <if test="roleCode != null">
+        role_code = #{roleCode,jdbcType=VARCHAR},
+      </if>
+      <if test="userId != null">
+        user_id = #{userId,jdbcType=BIGINT},
+      </if>
+      <if test="groupCodeList != null">
+        group_code_list = #{groupCodeList,jdbcType=VARCHAR},
+      </if>
+      <if test="calcSceneList != null">
+        calc_scene_list = #{calcSceneList,jdbcType=VARCHAR},
+      </if>
+      <if test="bussSneneList != null">
+        buss_snene_list = #{bussSneneList,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where dimension_right_id = #{dimensionRightId,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.jida.entity.DimensionRightVO">
+    update dimension_right
+    set role_code = #{roleCode,jdbcType=VARCHAR},
+      user_id = #{userId,jdbcType=BIGINT},
+      group_code_list = #{groupCodeList,jdbcType=VARCHAR},
+      calc_scene_list = #{calcSceneList,jdbcType=VARCHAR},
+      buss_snene_list = #{bussSneneList,jdbcType=VARCHAR}
+    where dimension_right_id = #{dimensionRightId,jdbcType=BIGINT}
+  </update>
+</mapper>

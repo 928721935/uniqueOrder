@@ -21,8 +21,8 @@ public class MyTest {
     public static void main(String[] args) {
 //        httpPost();
 //        httpGet();
-        String url1 = "http://localhost:8001/order/newOrderNoNewMysql";
-        String url2 = "http://localhost:8002/order/newOrderNoNewMysql";
+        String url1 = "http://localhost:8001/order/newOrderNoNewMysql2";
+        String url2 = "http://localhost:8002/order/newOrderNoNewMysql2";
         List<CompletableFuture<Void>> futures = new ArrayList<>();
         for (int i = 0; i < 200; i++) {
             int finalI = i;
