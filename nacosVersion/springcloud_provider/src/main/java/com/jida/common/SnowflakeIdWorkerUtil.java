@@ -139,7 +139,7 @@ public class SnowflakeIdWorkerUtil {
         return System.currentTimeMillis();
     }
 
-    static volatile SnowflakeIdWorkerUtil snowflakeIdWorkerUtil;
+    public static volatile SnowflakeIdWorkerUtil snowflakeIdWorkerUtil;
 
 //    static {
 //        snowflakeIdWorkerUtil = new SnowflakeIdWorkerUtil(Long.valueOf(PropertiesUtil.getProperty("myWorkId")), 0);
